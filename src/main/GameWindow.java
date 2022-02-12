@@ -20,6 +20,6 @@ public class GameWindow {
 		
 		thePanel.playGame();
 
-		System.out.println("hello");
+		System.out.println("Xin chao nam");
 	}
 }
