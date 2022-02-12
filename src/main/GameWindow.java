@@ -20,6 +20,5 @@ public class GameWindow {
 		
 		thePanel.playGame();
 
-		System.out.println("Xin chao nam");
 	}
 }
