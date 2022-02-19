@@ -5,7 +5,7 @@ import java.awt.Color;
 public class Ball {
 	
 	private int x,y; // vi tri
-	private int dx,dy,speed; // van toc
+	private int speed; // van toc
 	private Color c;
 	private int size; // do lon cua bong
 	private boolean up,down,left,right;
