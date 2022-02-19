@@ -1,10 +1,10 @@
 package main;
+
 import javax.swing.JFrame;
 
 public class GameWindow {
 	public static final int WIDTH = 640; // final de fix chieu rong chieu cao ko thay doi duoc
 	public static final int HEIGH = 640;
-
 	public static void main(String[] args) {
 		JFrame theWindow = new JFrame("Game Shell");
 		GamePanel thePanel = new GamePanel();
@@ -13,12 +13,11 @@ public class GameWindow {
 		theWindow.setLocationRelativeTo(null); // ????
 		theWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // only screen chỉ cho phép người dùng 1 tab game
 		
-		theWindow.add(thePanel);
+		theWindow.add(thePanel); // thiết lập panel
 		
 		
 		theWindow.setVisible(true); // hien len man hinh chay de chay game
 		
-		thePanel.playGame();
-
+		thePanel.playGame(); // chạy game 
 	}
 }
