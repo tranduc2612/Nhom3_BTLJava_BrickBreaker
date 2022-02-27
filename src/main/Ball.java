@@ -21,6 +21,9 @@ public class Ball {
 	}
 	public void update() { // cap nhat vi tri cua ball lien tuc
 
+		x += dx;
+		y += dy;
+
 		if(up) {
 			y-=speed;
 		}
